@@ -1,0 +1,19 @@
+{
+  "name": "atividade-final-intro-backend-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matheus Prates da Luz <matheuslprates@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -r sucrase/register src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "sucrase": "^3.34.0"
+  }
+}
