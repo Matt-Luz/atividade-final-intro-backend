@@ -13,12 +13,14 @@ Aplicação consiste em:
 Aplicação possui:
 
 ● Dados de um usuário:
+
   ○ Identificador
   ○ Nome
   ○ E-mail
   ○ Senha
 
 ● Dados de um recado:
+
   ○ Identificador
   ○ Título
   ○ Descrição
