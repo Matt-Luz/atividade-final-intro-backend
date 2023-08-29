@@ -2,7 +2,7 @@ Atividade final de módulo - Módulo introdução ao back-end.
 
 Programa starter fullstack web developer 16ª edição.
 
-Aplicação consiste em:
+<strong><i>Aplicação consiste em:</i></strong>
 
 - Criação de conta
 - Login
@@ -10,24 +10,19 @@ Aplicação consiste em:
 
 *CRUD (create, read, update e delete)
 
-Aplicação possui:
 
-● Dados de um usuário:
+<strong><i>Aplicação possui:</i></strong>
 
-  ○ Identificador
-  
-  ○ Nome
-  
-  ○ E-mail
-  
-  ○ Senha
-  
+- Dados de um usuário:
 
-● Dados de um recado:
+  - Identificador
+  - Nome
+  - E-mail
+  - Senha  
 
-  ○ Identificador
-  
-  ○ Título
-  
-  ○ Descrição
-  
+
+- Dados de um recado:
+
+  - Identificador
+  - Título
+  - Descrição
