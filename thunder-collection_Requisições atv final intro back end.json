@@ -1,0 +1,141 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Requisições atv final intro back end",
+    "dateExported": "2023-08-29T01:52:18.459Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ad5104e4-30bc-4f08-ae3d-333798b5195c",
+            "colId": "7ab25cab-db60-4984-a3d3-70d75ac15241",
+            "containerId": "",
+            "name": "create user",
+            "url": "http://localhost:7878/register",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-08-26T15:34:57.238Z",
+            "modified": "2023-08-28T18:54:12.099Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Matheus\",\n  \"email\": \"matheus@email.com\",\n  \"password\": \"123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "361afb45-b732-4d55-822b-ca8990c1bf6d",
+            "colId": "7ab25cab-db60-4984-a3d3-70d75ac15241",
+            "containerId": "",
+            "name": "find users registered",
+            "url": "http://localhost:7878/users",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-08-26T17:22:44.805Z",
+            "modified": "2023-08-26T17:23:10.138Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0cb9f092-c728-4b73-be06-8ff8d67b4474",
+            "colId": "7ab25cab-db60-4984-a3d3-70d75ac15241",
+            "containerId": "",
+            "name": "login user",
+            "url": "http://localhost:7878/login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-08-26T18:14:10.691Z",
+            "modified": "2023-08-28T22:28:06.907Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"matheu@email.com\",\n  \"password\": \"123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "97e8a456-3c80-4fa6-8a4c-20bcbe915e68",
+            "colId": "7ab25cab-db60-4984-a3d3-70d75ac15241",
+            "containerId": "",
+            "name": "create errands",
+            "url": "http://localhost:7878/errands",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-08-27T22:16:26.520Z",
+            "modified": "2023-08-28T18:48:55.621Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"teste3\",\n  \"description\": \"teste\",\n  \"userId\": \"486cc020-6b95-4703-aa6c-204be8610e8a\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3711bdb4-335f-4125-9006-bf9a3d8a1730",
+            "colId": "7ab25cab-db60-4984-a3d3-70d75ac15241",
+            "containerId": "",
+            "name": "list errands",
+            "url": "http://localhost:7878/list/486cc020-6b95-4703-aa6c-204be8610e8a",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-08-27T22:35:46.821Z",
+            "modified": "2023-08-28T18:49:07.051Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3b406249-991f-48dd-a29e-9fe7300eb9c9",
+            "colId": "7ab25cab-db60-4984-a3d3-70d75ac15241",
+            "containerId": "",
+            "name": "update errand",
+            "url": "http://localhost:7878/update/333363ea-ffee-4ef8-a87e-38865006dffe",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2023-08-28T17:04:22.697Z",
+            "modified": "2023-08-28T18:49:46.409Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"teste\",\n  \"description\": \"apagar\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "02c65850-8ce9-4e01-bba4-5e3c77807fc1",
+            "colId": "7ab25cab-db60-4984-a3d3-70d75ac15241",
+            "containerId": "",
+            "name": "delete errand",
+            "url": "http://localhost:7878/delete/333363ea-ffee-4ef8-a87e-38865006dffe",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2023-08-28T17:46:36.230Z",
+            "modified": "2023-08-28T18:50:00.534Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "759658dd-095d-40f6-ab2f-dd08be9681ff",
+            "colId": "7ab25cab-db60-4984-a3d3-70d75ac15241",
+            "containerId": "",
+            "name": "delete user",
+            "url": "http://localhost:7878/deleteUser/56aa7149-6ce1-487b-bedf-b31212603a31",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2023-08-28T18:17:05.261Z",
+            "modified": "2023-08-28T18:54:53.011Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
